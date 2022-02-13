@@ -1,0 +1,158 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<title>Collection Screen No Items</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"> 
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+	
+	<link rel="shortcut icon" href="../assets/images/favicon.png">
+	 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+<body class="bg-grey">
+
+<!-- Header start -->
+<header class="header">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="header__box">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-sm-3">
+							<div class="logo">
+								<img src="../assets/images/logo-main.svg" alt="logo" class="img-fluid">
+							</div>
+						</div>
+						<div class="col-sm-9">
+							<ul class="header__ul">
+								<li>
+									<form class="serach-box">
+										<div class="form-group search-btn mb-0">
+										<input type="text" name="search" placeholder="Search" class="form-control">
+											<a href="#" class="filter dropdown-toggle" data-toggle="dropdown"></a>
+   											<div class="filter-box">
+   												<h3 class="font-24 mb-4 text-center">Sort by</h3>
+											    <div class="custom-control custom-radio mb-3">
+									        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+									        <label class="custom-control-label" for="customRadioInline1">A to Z</label>
+									      </div>
+									      <div class="custom-control custom-radio">
+									        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+									        <label class="custom-control-label" for="customRadioInline2">Last saved</label>
+									      </div>
+									      <p class="mt-3"><a href="#" class="btn btn-danger w-100">APPLY FILTERS</a></p>
+											  </div>
+										  
+									</div>
+									</form>
+								</li>
+							<li>
+									<a href="#"  class="active">
+										<span class="archive" style=""></span>
+								</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="lock" ></span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="notification" ></span>
+									</a>
+								</li>
+
+								<li>
+									<a href="#" >
+										<span class="user" ></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+</header>
+
+
+<section class="screen">
+	<div class="container">
+		<div class="row mb-3">
+			<div class="col-6">
+				<a href="mycollection.html" class="left-arrow"><img src="../assets/images/left.svg" class="img-fluid" alt="left"></a>
+			</div>
+			<div class="col-6 text-right">
+				<a href="#" class="btn btn-danger m-width">Edit</a>
+			</div>
+		</div>
+		<div class="row mb-3">
+			<div class="col-sm-12">
+				<div class="adam-nir">
+					<img src="../assets/images/adam-nir.png" alt="adam-nir" class="img-fluid">
+				</div>
+			</div>
+		</div>
+		<div class="row mb-1">
+			<div class="col-sm-12 text-center">
+				<h3 class="h3">TOP Quarters </h3>
+				<p class="font-14">12 items 46m </p>
+			</div>
+		</div>
+		<div class="row mb-2">
+			<div class="col-sm-12 text-center">
+				<h4 class="h4">Save some items to your collection </h4>
+				<p class="font-14">or find it on our database</p>
+			</div>
+		</div>
+		<div class="row mb-3">
+			<div class="col-sm-12 text-center">
+				<a href="#" class="btn btn-dark m-width mr-2">EXPLORE DATA BASE</a>
+				<a href="#" class="btn btn-danger m-width">ADD ITEM</a>
+			</div>
+		</div>
+
+	
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!--<script src="https://kit.fontawesome.com/d6633f8393.js" crossorigin="anonymous"></script>-->
+
+
+ <script>
+    $(document).ready(function(){
+   
+   $(".filter").click(function(){
+  $(".filter-box").toggle();
+});
+
+
+});
+</script>
+
+</body>
+</html>

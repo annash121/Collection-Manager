@@ -1,0 +1,109 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<title>Create New Password</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"> 
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+	
+	<link rel="shortcut icon" href="../assets/images/favicon.png">
+	 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+<body class="body-bg">
+
+<!-- Header start -->
+<header class="header mb-5">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="header__arrow">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--<div class="container">
+		<div class="row justify-content-lg-start justify-content-center align-items-center">
+			<div class="col-sm-6 col-lg-4 offset-lg-2">
+				<div class="header__logo text-center">
+					<img src="../assets/images/logo.svg" class="img-fluid" alt="logo">
+				</div>
+			</div>
+		
+		</div>
+	</div>-->
+</header>
+
+
+<section class="login">
+	<div class="container">
+		<div class="row justify-content-lg-start justify-content-center align-items-center">
+			<div class="col-sm-6 col-lg-4 offset-lg-2">
+				<div class="login__box">
+					<div class="login__header">
+					<h1 class="heading">
+						Create your new<br/>Password?
+					</h1>
+					
+				</div>
+				<div class="login__form">
+					<form>
+					
+                   <div class="form-group login__password">
+                    <label for="new-password">New password</label> 
+					<input class="form-control" id="new-password" name="new-password" placeholder="Enter your new password" required="" type="password">
+                  </div>
+                   <div class="form-group login__password">
+                    <label for="repeat-new">Repeat your new password</label> 
+					<input class="form-control" id="repeat-new" name="repeat-new" placeholder="Enter your new password" required="" type="password">
+                  </div>
+                  
+				<div class="form-group">
+					<a href="#" data-toggle="modal" data-target="#succes-modal" class="btn btn-danger w-100">CREATE PASSWORD</a>
+				</div>
+				</form>
+			
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<!-- Button trigger modal -->
+
+
+<!-- New Pass Created success Modal -->
+<div class="modal fade" id="succes-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+    <div class="modal-content">
+     
+      <div class="modal-body text-center">
+       <div class="success-icon">
+       	<img src="../assets/images/success.svg" alt="success" class="img-fluid">
+       </div>
+       <h2 class="heading">Success!</h2>
+       <p class="">The new password has been created!</p>
+       <p class="mb-1">
+       	<a href="login.html"  class="btn btn-danger w-100">GO TO HOME</a>
+       </p>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!--<script src="https://kit.fontawesome.com/d6633f8393.js" crossorigin="anonymous"></script>-->
+
+</body>
+</html>

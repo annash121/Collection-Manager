@@ -1,0 +1,95 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<title>PDF View Screen</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"> 
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+	 <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet"> 
+	<link rel="shortcut icon" href="../assets/images/favicon.png">
+	 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+<body class="bg-grey">
+
+<!-- Header start -->
+<header class="header">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="header__box">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-sm-4 col-2">
+								<a href="publications.html" class="left-arrow"><img src="../assets/images/left.svg" class="img-fluid" alt="left"></a>
+						</div>
+						<div class="col-sm-4 col-10 text-center">
+						<h4 class="h4">The industry standard of coins</h4>
+						</div>
+						<div class="col-sm-4"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="pdf-slider">
+				<div id="pdf-slider" class="slider owl-carousel pdf-slider">
+				  <div> <img src="../assets/images/slider1.png" class="img-fluid" alt="slider"> </div>
+				  <div> <img src="../assets/images/slider2.png" class="img-fluid" alt="slider"> </div>
+				  <div> <img src="../assets/images/slider3.png" class="img-fluid" alt="slider"> </div>
+				  <div> <img src="../assets/images/slider1.png" class="img-fluid" alt="slider"></div>
+				  <div> <img src="../assets/images/slider2.png" class="img-fluid" alt="slider"> </div>
+				</div>
+				<div class="slider-counter"> </div>
+			</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+
+
+
+
+
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!--<script src="https://kit.fontawesome.com/d6633f8393.js" crossorigin="anonymous"></script>-->
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+		  <script src="https://cdn.jsdelivr.net/npm/owl.carousel2.thumbs@0.1.8/dist/owl.carousel2.thumbs.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+  $("#pdf-slider")
+  .on("initialized.owl.carousel changed.owl.carousel", function (e) {
+    if (!e.namespace) {
+      return;
+    }
+    var carousel = e.relatedTarget;
+    $(".slider-counter").text(
+      carousel.relative(carousel.current()) + 1 + "/" + carousel.items().length
+    );
+  })
+  .owlCarousel({
+    items: 3,
+    loop: true,
+    margin: 0,
+    nav: true,
+    dots:false,
+    navText: ["<img class='img-fluid' src='../assets/images/arrow_left.svg'>","<img class='img-fluid' src='../assets/images/arrow_right.svg'>"],
+
+  });
+
+});
+
+</script>
+</body>
+</html>

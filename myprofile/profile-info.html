@@ -1,0 +1,561 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<title>My Profile Info</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"> 
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+	 <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet"> 
+	<link rel="shortcut icon" href="../assets/images/favicon.png">
+	 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+<body class="bg-grey">
+
+<!-- Header start -->
+<header class="header">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="header__box">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-sm-3">
+							<div class="logo">
+								<img src="../assets/images/logo-main.svg" alt="logo" class="img-fluid">
+							</div>
+						</div>
+						<div class="col-sm-9">
+								<ul class="header__ul">
+								<li>
+									<form class="serach-box">
+										<div class="form-group search-btn mb-0">
+										<input type="text" name="search" placeholder="Search" class="form-control">
+											<a href="#" class="filter dropdown-toggle" data-toggle="dropdown"></a>
+   											<div class="filter-box">
+   												<h3 class="font-24 mb-4 text-center">Sort by</h3>
+											    <div class="custom-control custom-radio mb-3">
+									        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+									        <label class="custom-control-label" for="customRadioInline1">A to Z</label>
+									      </div>
+									      <div class="custom-control custom-radio">
+									        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+									        <label class="custom-control-label" for="customRadioInline2">Last saved</label>
+									      </div>
+									      <p class="mt-3"><a href="#" class="btn btn-danger w-100">APPLY FILTERS</a></p>
+											  </div>
+										  
+									</div>
+									</form>
+								</li>
+								<li>
+									<a href="#">
+										<span class="archive" style=""></span>
+								</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="lock" ></span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="notification" ></span>
+									</a>
+								</li>
+
+								<li>
+									<a href="#"  class="active">
+										<span class="user" ></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+</header>
+
+
+<section class="profile">
+	<div class="container">
+		<div class="row mb-4">
+			<div class="col-sm-4">
+				<div class="profile__box text-center">
+					<div class="profile__img mb-3">
+						<img src="../assets/images/avatar.png" alt="profile-pic" class="img-fluid">
+					</div>
+					<h3 class="h3">John Roots</h3>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-6">
+						<div class="profile__box">
+							<div class="profile__img mb-3">
+								<img src="../assets/images/gallery.svg" alt="gallery" class="img-fluid img-50">
+							</div>
+							<p class="text-muted mb-0">Total Items</p>
+							<h2 class="h3 font-weight-bold">4567</h2>
+						</div>
+					</div>
+						<div class="col-sm-6 col-6">
+						<div class="profile__box">
+							<div class="profile__img mb-3">
+								<img src="../assets/images/gallery_upload.svg" alt="gallery_upload" class="img-fluid img-50">
+							</div>
+							<p class="text-muted mb-0">Items Added</p>
+							<h2 class="h3 font-weight-bold">1517</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center align-items-center">
+				<div class="col-sm-12">
+					<div class="profile__box">
+						<div class="row">
+								<div class="col-sm-6 col-6">
+					
+					<div class="profile__img  ">
+						<img src="../assets/images/folder.svg" alt="profile-pic" class="img-fluid img-50">
+						<p class="text-muted mt-3">Total Collections</p>
+					</div>
+				
+			</div>
+					<div class="col-sm-6 col-6 text-right">
+					<h3 class="heading">45</h3>
+				</div>
+						</div>
+					</div>
+				</div>
+				</div>
+
+				<div class="profile__box">
+					<div class="profile__img">
+						<img src="../assets/images/shield.svg" alt="shield.svg" class="img-fluid img-50"> 
+						<strong>Legal</strong>
+					</div>
+					
+				</div>
+				<p>
+					<a href="#" class="btn btn-light btn-logout w-100">
+						<img src="../assets/images/login.svg" alt="logout-icon" class="img-fluid img-50"> Logout</a>
+				</p>
+			</div>
+			<div class="col-sm-8">
+				<div class="profile__ul">
+				<ul class="nav nav-tabs mb-3" role="tablist">
+			<li class="nav-item">
+				<a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">
+						<span class="my-info">My info</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">
+					<span class="notification1">Notiffications</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">
+					<span class="chat-icon">Get help</span>
+				</a>
+			</li>
+			
+		</ul><!-- Tab panes -->
+	</div>
+		<div class="tab-content">
+			<div class="tab-pane active" id="tabs-1" role="tabpanel">
+				<div class="profile__box">
+					<div class="row mb-3">
+						<div class="col-sm-12 text-sm-right">
+								<a href="personal-details-edit.html" class="btn btn-danger px-4">Edit</a>
+						</div>
+					</div>
+					<div class="row justify-content-center align-items-center">
+						<div class="col-sm-12 col-md-6">
+							<form class="profile__form">
+								<div class="form-group bg-grey mb-3">
+									<label class="label">Email</label>
+									<input type="text" name="email" class="form-control" placeholder="email@mail.com">
+								</div>
+								<div class="form-group bg-grey mb-3">
+									<label class="label">Phone Number</label>
+									<input type="text" name="phone" class="form-control" placeholder="656 78 89 67">
+								</div>
+								<div class="mb-2">
+									<a href="change-password.html" class="btn btn-link"><strong>Change Password</strong></a>
+								</div>
+								<div class="form-group bg-grey mb-3">
+									<label class="label">Location </label>
+									<input type="text" name="location" class="form-control" placeholder="Mount Baker, NY ">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane " id="tabs-2" role="tabpanel">
+				<div class="profile__box">
+					<div class="row mb-3">
+						<div class="col-sm-12 text-sm-right">
+								<a href="#" class="btn btn-danger px-4">Save</a>
+						</div>
+					</div>
+					<div class="row justify-content-center align-items-center mb-4">
+						<div class="col-sm-12">
+							<div class="profile__byemail">
+								<img src="../assets/images/message_fill.svg" alt="byemail" class="img-fluid img-50 mr-3">
+								<strong>By email</strong>
+							</div>
+						</div>
+					</div>
+					<div class="row mb-4">
+						<div class="col-sm-6">
+							<div class="profile__notifications">
+								<div class="">Activate all</div>
+								 <div class="form-group form-switch mb-0">
+                  	  <label class="switch" for="checkbox1">
+							    <input type="checkbox" id="checkbox1" />
+							    <div class="slider round"></div>
+							  	</label>
+									</div>
+								</div>
+						</div>
+							<div class="col-sm-6">
+							<div class="profile__notifications">
+								<div class="">Inspired by your recent activity</div>
+								 <div class="form-group form-switch mb-0">
+                  	  <label class="switch" for="checkbox2">
+							    <input type="checkbox" id="checkbox2" />
+							    <div class="slider round"></div>
+							  	</label>
+									</div>
+								</div>
+						</div>
+							<div class="col-sm-6">
+							<div class="profile__notifications">
+								<div class="">Updates</div>
+								 <div class="form-group form-switch mb-0">
+                  	  <label class="switch" for="checkbox3">
+							    <input type="checkbox" id="checkbox3" />
+							    <div class="slider round"></div>
+							  	</label>
+									</div>
+								</div>
+						</div>
+							<div class="col-sm-6">
+							<div class="profile__notifications">
+								<div class="">Collected by you</div>
+								 <div class="form-group form-switch mb-0">
+                  	  <label class="switch" for="checkbox4">
+							    <input type="checkbox" id="checkbox4" />
+							    <div class="slider round"></div>
+							  	</label>
+									</div>
+								</div>
+						</div>
+							<div class="col-sm-6">
+							<div class="profile__notifications">
+								<div class="">Collections</div>
+								 <div class="form-group form-switch mb-0">
+                  	  <label class="switch" for="checkbox5">
+							    <input type="checkbox" id="checkbox5" />
+							    <div class="slider round"></div>
+							  	</label>
+									</div>
+								</div>
+						</div>
+							<div class="col-sm-6">
+							<div class="profile__notifications">
+								<div class="">Announcement and updates</div>
+								 <div class="form-group form-switch mb-0">
+                  	  <label class="switch" for="checkbox6">
+							    <input type="checkbox" id="checkbox6" />
+							    <div class="slider round"></div>
+							  	</label>
+									</div>
+								</div>
+						</div>
+
+					</div>
+					<div class="row justify-content-center align-items-center mb-4">
+						<div class="col-sm-12">
+							<div class="profile__byemail">
+								<img src="../assets/images/notification_filled.svg" alt="notification_filled" class="img-fluid img-50 mr-1">
+								<strong>Push notifications</strong>
+							</div>
+						</div>
+					</div>
+					<div class="row mb-4">
+						<div class="col-sm-6">
+							<div class="profile__notifications">
+								<div class="">Activate all</div>
+								 <div class="form-group form-switch mb-0">
+                  	  <label class="switch" for="checkbox7">
+							    <input type="checkbox" id="checkbox7" />
+							    <div class="slider round"></div>
+							  	</label>
+									</div>
+								</div>
+						</div>
+							<div class="col-sm-6">
+							<div class="profile__notifications">
+								<div class="">Inspired by your recent activity</div>
+								 <div class="form-group form-switch mb-0">
+                  	  <label class="switch" for="checkbox8">
+							    <input type="checkbox" id="checkbox8" />
+							    <div class="slider round"></div>
+							  	</label>
+									</div>
+								</div>
+						</div>
+							<div class="col-sm-6">
+							<div class="profile__notifications">
+								<div class="">Updates</div>
+								 <div class="form-group form-switch mb-0">
+                  	  <label class="switch" for="checkbox9">
+							    <input type="checkbox" id="checkbox9" />
+							    <div class="slider round"></div>
+							  	</label>
+									</div>
+								</div>
+						</div>
+							<div class="col-sm-6">
+							<div class="profile__notifications">
+								<div class="">Collected by you</div>
+								 <div class="form-group form-switch mb-0">
+                  	  <label class="switch" for="checkbox10">
+							    <input type="checkbox" id="checkbox10" />
+							    <div class="slider round"></div>
+							  	</label>
+									</div>
+								</div>
+						</div>
+							<div class="col-sm-6">
+							<div class="profile__notifications">
+								<div class="">Collections</div>
+								 <div class="form-group form-switch mb-0">
+                  	  <label class="switch" for="checkbox11">
+							    <input type="checkbox" id="checkbox11" />
+							    <div class="slider round"></div>
+							  	</label>
+									</div>
+								</div>
+						</div>
+							<div class="col-sm-6">
+							<div class="profile__notifications">
+								<div class="">Announcement and updates</div>
+								 <div class="form-group form-switch mb-0">
+                  	  <label class="switch" for="checkbox12">
+							    <input type="checkbox" id="checkbox12" />
+							    <div class="slider round"></div>
+							  	</label>
+									</div>
+								</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane " id="tabs-3" role="tabpanel">
+				<div class="profile__box">
+					<div class="row mb-3">
+						<div class="col-sm-12 text-sm-right">
+								<form class="serach-box">
+										<div class="form-group search-btn mb-0">
+										<input type="text" name="search" placeholder="Search" class="form-control bg-grey">
+									</div>
+									</form>
+						</div>
+					</div>
+					<div class="row justify-content-center align-items-center">
+						<div class="col-sm-12">
+							<p>Get Started</p>
+							    <div id="accordion" class="accordion mb-3">
+            <div class="card">
+              <div class="card-header" id="heading-1">
+                <h5 class="mb-0">
+                  <a role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                                    All about App
+                                    </a>
+                </h5>
+              </div>
+              <div id="collapse-1" class="collapse show" data-parent="#accordion" aria-labelledby="heading-1">
+                <div class="card-body">
+                	<div class="body-inner">
+                   All about App is the worlds most reliable remote trade copier. Its allow you to copy trades almost instantly between hundreds of MT4 accounts through the use of technology. Many of the industries leading money managers use FXCopier to easily manage multiple
+                  client accounts in tandem.
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="heading-2">
+                <h5 class="mb-0">
+                  <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                                     Upgrade the App
+                                    </a>
+                </h5>
+              </div>
+              <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+                <div class="card-body">
+                	<div class="body-inner">
+                  After subscription you will get our special trade copier. If you want to use this copier for business purpose or other commercial pupose then directly contact with www.fxcopier.co.uk.
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="heading-3">
+                <h5 class="mb-0">
+                  <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                                   Features and tools
+                                    </a>
+                </h5>
+              </div>
+              <div id="collapse-3" class="collapse" data-parent="#accordion" aria-labelledby="heading-3">
+                <div class="card-body">
+                	<div class="body-inner">
+                  After subscription you will get our special trade copier. If you want to use this copier for business purpose or other commercial pupose then directly contact with www.fxcopier.co.uk.
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          	<p>Find and save</p>
+							    <div id="accordion1" class="accordion mb-3">
+            <div class="card">
+              <div class="card-header" id="heading-4">
+                <h5 class="mb-0">
+                  <a role="button" data-toggle="collapse" href="#collapse-4" aria-expanded="true" aria-controls="collapse-4">
+                                   Download an image
+                                    </a>
+                </h5>
+              </div>
+              <div id="collapse-4" class="collapse show" data-parent="#accordion1" aria-labelledby="heading-4">
+                <div class="card-body">
+                   <div class="body-inner">
+                   All about App is the worlds most reliable remote trade copier. Its allow you to copy trades almost instantly between hundreds of MT4 accounts through the use of technology. Many of the industries leading money managers use FXCopier to easily manage multiple
+                  client accounts in tandem.
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="heading-5">
+                <h5 class="mb-0">
+                  <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+                                     Upgrade the App
+                                    </a>
+                </h5>
+              </div>
+              <div id="collapse-5" class="collapse" data-parent="#accordion1" aria-labelledby="heading-5">
+                <div class="card-body">
+                	<div class="body-inner">
+                  After subscription you will get our special trade copier. If you want to use this copier for business purpose or other commercial pupose then directly contact with www.fxcopier.co.uk.
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="heading-6">
+                <h5 class="mb-0">
+                  <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
+                                   Features and tools
+                                    </a>
+                </h5>
+              </div>
+              <div id="collapse-6" class="collapse" data-parent="#accordion1" aria-labelledby="heading-6">
+                <div class="card-body">
+                	<div class="body-inner">
+                  After subscription you will get our special trade copier. If you want to use this copier for business purpose or other commercial pupose then directly contact with www.fxcopier.co.uk.
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			</div>
+		</div>
+		
+		
+		
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!--<script src="https://kit.fontawesome.com/d6633f8393.js" crossorigin="anonymous"></script>-->
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+		  <script src="https://cdn.jsdelivr.net/npm/owl.carousel2.thumbs@0.1.8/dist/owl.carousel2.thumbs.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+
+$(".filter").click(function(){
+  $(".filter-box").toggle();
+});
+
+
+
+  $(".slider1").owlCarousel({
+    loop: true,
+    thumbs: true,
+    items: 1,
+    dots:false,
+    responsiveClass: true,
+    autoplayHoverPause: true,
+    autoplay: true,
+    slideSpeed: 1000,
+    paginationSpeed: 900,
+    thumbsPrerendered: true,
+    autoplayTimeout: 3000,
+    //navText : ["<img src='img/left.png'>","<img src='img/right.png'>"],
+    responsive: {
+      0: {
+        items: 1,
+        nav: false
+      },
+      360: {
+        items: 1,
+        nav: false
+      },
+      768: {
+        items: 1,
+        nav: false
+      },
+      1000: {
+        items: 1,
+        nav: false,
+        loop: true
+      }
+    }
+  });
+});
+
+</script>
+</body>
+</html>
